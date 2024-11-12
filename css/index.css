@@ -1,0 +1,200 @@
+body{
+  display: table;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
+  color: whitesmoke;
+  background: url('../image/livroEstante.gif') no-repeat bottom center /*scroll*/;
+  background-position: 80% 95%;
+  background-size: 110%  100%; /* cover */
+  margin: 0;
+  font-size: 150%;
+  backdrop-filter: blur(7px);
+  
+
+  text-shadow: 2px 2px 5px rgb(33, 30, 30) ;
+}
+
+  .jolly-lodger-regular {
+
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+p{
+    .jolly-lodger-regular {
+        font-family: "Jolly Lodger", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+.imgg{
+  display:flex;
+margin-right: -450px;
+  margin-top: -180px;
+}
+
+ul li{
+
+  display:flex;
+  margin-top: -70px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center, top;
+  padding: 16px;
+  margin: 0px;
+}
+
+
+
+a{
+  color: #27bd59;
+  text-decoration:none ;
+}
+
+.container{
+  padding: 0px 0px;
+  text-align: top;
+  margin: 0px;
+}
+
+
+
+ol{
+  align-items: center;
+}
+
+h1, h2, h3{
+  color: #0a971d;
+  align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+li a:hover{
+  color: rgb(130, 218, 142);
+}
+
+audio{
+  font-style: none;
+}
+
+
+/*footer*/
+
+/* Estilo do Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-top: 2px solid #cccccc;
+  font-family: Arial, sans-serif;
+  background-color: none /* Fundo claro para o footer */
+}
+
+.footer-left, .footer-center, .footer-right {
+  flex: 1;  /* Cada seção ocupa uma fração igual do espaço disponível */
+  padding: 10px;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+/* Estilos para os links de contato */
+.footer-left a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.footer-left a:hover {
+  color: #f39c12;
+}
+
+/* Estilos para o título e parágrafo do "Sobre" */
+.footer-center h3, .footer-left h3, .footer-right h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.footer-center p {
+  font-size: 0.9em;
+  color: #ecfbf0;
+}
+
+/* Estilo para os ícones das redes sociais */
+.social-icons {
+  display: flex;
+  justify-content: flex-start; /* Para manter os ícones alinhados à esquerda */
+  gap: 15px; /* Espaço entre os ícones */
+}
+
+.social-icons a {
+  display: inline-block;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Efeito de zoom quando o mouse passa sobre o ícone */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .footer-left, .footer-center, .footer-right {
+      flex: unset; /* Para que as seções não se estiquem em telas pequenas */
+      padding: 15px;
+  }
+
+  .social-icons {
+      justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-left, .footer-center, .footer-right {
+      padding: 10px;
+  }
+
+  .social-icons a {
+      margin-right: 10px;
+  }
+}
+/* Estilizando a seção sobre literatura */
+.literature-section {
+  border: 2px solid #cccccc15; /* Borda cinza clara */
+  padding: 20px;
+  border-radius: 8px; /* Bordas arredondadas */
+  margin: 20px auto;
+  width: 80%; /* Tamanho da seção */
+  background-color: #f9f9f927; /* Fundo suave */
+}
+

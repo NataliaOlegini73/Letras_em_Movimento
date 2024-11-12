@@ -1,0 +1,26 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+.container{
+   max-width: 1080px; 
+   max-width: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+header{
+    background-color: beige;
+    width: 100%;
+}
+
+.logo, .sociais{
+    width: 25%;
+}
+
+.menu{
+    width: 50%;
+}
